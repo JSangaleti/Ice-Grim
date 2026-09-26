@@ -1,1 +1,2 @@
-# ice-grim
+# Ice Grim Game
+
