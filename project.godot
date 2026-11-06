@@ -14,10 +14,6 @@ config/name="Ice Grim"
 config/features=PackedStringArray("4.4", "GL Compatibility")
 config/icon="res://icon.svg"
 
-[dotnet]
-
-project/assembly_name="Ice Grim"
-
 [rendering]
 
 renderer/rendering_method="gl_compatibility"
