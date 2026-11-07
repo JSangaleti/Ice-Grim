@@ -11,12 +11,13 @@ config_version=5
 [application]
 
 config/name="Ice Grim"
+run/main_scene="uid://cmscr8plp7jea"
 config/features=PackedStringArray("4.4", "GL Compatibility")
 config/icon="res://icon.svg"
 
-[dotnet]
+[autoload]
 
-project/assembly_name="Ice Grim"
+Audio="*res://scripts/audio/audio.gd"
 
 [rendering]
 
