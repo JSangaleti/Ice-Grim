@@ -1,0 +1,71 @@
+[gd_scene load_steps=5 format=3]
+[ext_resource type="Script" path="res://gd/world.gd" id="1"]
+[ext_resource type="Script" path="res://gd/platform.gd" id="2"]
+[ext_resource type="Script" path="res://gd/hazard.gd" id="3"]
+[ext_resource type="Script" path="res://gd/item.gd" id="4"]
+[node name="Level03" type="Node2D"]
+script = ExtResource("1")
+level_id = 3
+level_name = "Passos de açúcar"
+spawn = Vector2(52, 484)
+[node name="Platform00" type="StaticBody2D" parent="."]
+position = Vector2(0, 484)
+script = ExtResource("2")
+size = Vector2(180, 56)
+flavor = 3
+crumble = false
+[node name="Platform01" type="StaticBody2D" parent="."]
+position = Vector2(240, 460)
+script = ExtResource("2")
+size = Vector2(85, 22)
+flavor = 3
+crumble = true
+[node name="Platform02" type="StaticBody2D" parent="."]
+position = Vector2(385, 420)
+script = ExtResource("2")
+size = Vector2(85, 22)
+flavor = 3
+crumble = true
+[node name="Platform03" type="StaticBody2D" parent="."]
+position = Vector2(535, 380)
+script = ExtResource("2")
+size = Vector2(85, 22)
+flavor = 3
+crumble = true
+[node name="Platform04" type="StaticBody2D" parent="."]
+position = Vector2(690, 484)
+script = ExtResource("2")
+size = Vector2(65, 56)
+flavor = 3
+crumble = true
+camouflage = true
+collapse_delay = 0.32
+[node name="Hazard00" type="Area2D" parent="."]
+position = Vector2(735, 484)
+script = ExtResource("3")
+kind = 1
+size = Vector2(30, 24)
+travel = 95
+speed = 105
+variant = 0
+[node name="Hazard01" type="Area2D" parent="."]
+position = Vector2(855, 464)
+script = ExtResource("3")
+kind = 0
+size = Vector2(40, 20)
+travel = 0
+speed = 0
+variant = 0
+[node name="Key" type="Area2D" parent="."]
+position = Vector2(580, 344)
+script = ExtResource("4")
+is_exit = false
+[node name="Exit" type="Area2D" parent="."]
+position = Vector2(914, 484)
+script = ExtResource("4")
+is_exit = true
+[node name="StableFinish" type="StaticBody2D" parent="."]
+position = Vector2(755, 484)
+script = ExtResource("2")
+size = Vector2(205, 56)
+flavor = 3

@@ -1,0 +1,716 @@
+Godot Engine v4.4.1.stable.official.49a5bc7b6 - https://godotengine.org
+
+PASS UI 01 opening advances to main menu
+[Ice Grim] Abrindo res://levels/01.tscn
+PASS UI 02 mouse Jogar opens playable phase 1
+PASS UI 03 keyboard moves the player after menu start
+PASS UI 04 Escape opens pause
+PASS UI 05 mouse Continuar resumes gameplay
+[Ice Grim] Abrindo res://levels/00.tscn
+PASS UI 06 mouse Tutorial opens independent course
+[Ice Grim] Abrindo res://levels/01.tscn
+PASS UI 07 Enter on Jogar opens phase 1
+[Ice Grim] Abrindo res://levels/00.tscn
+PASS UI 08 keyboard navigates and opens Tutorial
+PASS UI 09 mouse Credits works
+PASS UI 10 mouse return from Credits works
+PASS UI 11 mouse Settings works
+PASS UI 12 mouse return from Settings works
+[Ice Grim] Abrindo res://levels/01.tscn
+PASS UI 13 Enter starts even without GUI focus
+UI_TEST_OK: 13 routed mouse and keyboard checks
+
+Godot Engine v4.4.1.stable.official.49a5bc7b6 - https://godotengine.org
+
+[Ice Grim] Abrindo res://levels/06.tscn
+PASS UI 01 preview opens actual victory screen
+PASS UI 02 campaign HUD and title artwork do not overlap victory
+PASS UI 03 improved result gets record badge
+PASS UI 04 actual time and new best are displayed
+PASS UI 05 victory summarizes lives, stages and attempt
+PASS UI 06 replay receives initial keyboard focus
+PASS UI 07 victory freezes campaign timer and physics
+PASS UI 08 celebration animates without accumulating particle nodes
+PASS UI 09 labels and buttons fit viewport and caption stays in its column
+PASS UI 10 duplicate exit cannot rebuild victory or erase record badge
+PASS UI 11 keyboard moves focus to menu
+PASS UI 12 Enter activates menu action and cleans world
+PASS UI 13 leaving victory removes its animation
+[Ice Grim] Abrindo res://levels/06.tscn
+PASS UI 14 first completion has its own celebration badge
+PASS UI 15 first completion sets campaign record
+[Ice Grim] Abrindo res://levels/01.tscn
+PASS UI 16 mouse replay starts a fresh campaign in phase one
+[Ice Grim] Abrindo res://levels/06.tscn
+PASS UI 17 slower victory does not invent a new record
+PASS UI 18 slower run preserves and displays previous best
+PASS UI 19 remaining life count is taken from the actual encounter
+PASS UI 20 mouse menu action works
+[Ice Grim] Abrindo res://levels/06.tscn
+PASS UI 21 faster run updates record
+[Ice Grim] Abrindo res://levels/01.tscn
+PASS UI 22 Enter on initial replay button starts gameplay
+VICTORY_TEST_OK: 22 checks; first/new/slower records, real stats, bounded animation, mouse/keyboard replay/menu, cleanup and frozen campaign
+
+Godot Engine v4.4.1.stable.official.49a5bc7b6 - https://godotengine.org
+
+[Ice Grim] Abrindo res://levels/01.tscn
+PASS 01 campaign starts at phase 1
+PASS 02 spawn rests on physical floor
+PASS 03 walking accelerates and moves
+PASS 04 jump rises under real gravity
+PASS 05 dash consumes charge
+PASS 06 landing restores dash
+PASS 07 pause freezes physics and timer
+PASS 08 dash does not grant invulnerability against spikes
+[Ice Grim] Abrindo res://levels/01.tscn
+PASS 09 death restores campaign, key and attempt
+[Ice Grim] Abrindo res://levels/00.tscn
+PASS 10 crouching traverses low tunnel
+PASS 11 ceiling prevents standing inside tunnel
+PASS 12 standing restored after tunnel
+[Ice Grim] Abrindo res://levels/00.tscn
+PASS 13 tutorial death stays outside campaign
+[Ice Grim] Abrindo res://levels/03.tscn
+PASS 14 crumble support collapses after stepping on it
+[Ice Grim] Abrindo res://levels/03.tscn
+PASS 15 scene reload restores crumble platform
+[Ice Grim] Abrindo res://levels/04.tscn
+PASS 16 falling scoop uses a consistent internal delay without advance warning
+PASS 17 scoop falls after deterministic delay
+[Ice Grim] Abrindo res://levels/01.tscn
+[Ice Grim] Abrindo res://levels/02.tscn
+PASS 18 jelly contact is lethal
+[Ice Grim] Abrindo res://levels/01.tscn
+PASS 19 later-phase death resets to phase 1
+[Ice Grim] Abrindo res://levels/05.tscn
+PASS 20 crouching avoids a high cone projectile
+PASS 21 standing is vulnerable to high cone projectile
+[Ice Grim] Abrindo res://levels/01.tscn
+PASS 22 phase 1 loaded in order
+PASS 23 phase 1 exit rejects missing key
+PASS 24 phase 1 key collected
+[Ice Grim] Abrindo res://levels/02.tscn
+PASS 25 phase 2 loaded in order
+PASS 26 phase 2 exit rejects missing key
+PASS 27 phase 2 key collected
+[Ice Grim] Abrindo res://levels/03.tscn
+PASS 28 phase 3 loaded in order
+PASS 29 phase 3 exit rejects missing key
+PASS 30 phase 3 key collected
+[Ice Grim] Abrindo res://levels/04.tscn
+PASS 31 phase 4 loaded in order
+PASS 32 phase 4 exit rejects missing key
+PASS 33 phase 4 key collected
+[Ice Grim] Abrindo res://levels/05.tscn
+PASS 34 phase 5 loaded in order
+PASS 35 phase 5 exit rejects missing key
+PASS 36 key escapes once before collection
+PASS 37 phase 5 key collected
+[Ice Grim] Abrindo res://levels/06.tscn
+PASS 38 fifth exit opens boss stage
+PASS 39 boss blocks victory even with an injected key
+PASS 40 defeated boss releases final key
+PASS 41 sixth exit after boss ends in victory
+[Ice Grim] Abrindo res://levels/00.tscn
+PASS 42 tutorial completion returns to menu
+PASS 43 keyboard and gamepad bindings installed
+SELF_TEST_OK: 43 integration checks (GDScript)
+
+Godot Engine v4.4.1.stable.official.49a5bc7b6 - https://godotengine.org
+
+[Ice Grim] Abrindo res://levels/01.tscn
+[Ice Grim] Abrindo res://levels/01.tscn
+PASS TRAP 01 phase 1 has no advance instruction signs
+[Ice Grim] Abrindo res://levels/02.tscn
+PASS TRAP 02 phase 2 has no advance instruction signs
+[Ice Grim] Abrindo res://levels/03.tscn
+PASS TRAP 03 phase 3 has no advance instruction signs
+[Ice Grim] Abrindo res://levels/04.tscn
+PASS TRAP 04 phase 4 has no advance instruction signs
+[Ice Grim] Abrindo res://levels/05.tscn
+PASS TRAP 05 phase 5 has no advance instruction signs
+[Ice Grim] Abrindo res://levels/01.tscn
+PASS TRAP 06 surprise spikes start hidden and harmless
+PASS TRAP 07 approach reveals surprise spikes
+PASS TRAP 08 pause freezes spike emergence
+PASS TRAP 09 emerged spikes enable real lethal collision
+PASS TRAP 10 emerged surprise spikes kill by actual contact
+[Ice Grim] Abrindo res://levels/01.tscn
+PASS TRAP 11 retry restores concealed spikes
+[Ice Grim] Abrindo res://levels/03.tscn
+PASS TRAP 12 deceptive floor uses normal appearance
+PASS TRAP 13 deceptive floor actually collapses when stepped on
+[Ice Grim] Abrindo res://levels/03.tscn
+PASS TRAP 14 reload restores deceptive floor
+[Ice Grim] Abrindo res://levels/05.tscn
+PASS TRAP 15 key escapes on first real contact
+PASS TRAP 16 escaped key is reachable and collectible by real contact
+[Ice Grim] Abrindo res://levels/05.tscn
+PASS TRAP 17 reload resets escaping key
+PASS TRAP 18 Game Over does not reveal hazard hints
+[Ice Grim] Abrindo res://levels/04.tscn
+PASS TRAP 19 phase 4 key reachable without run/dash, wait=0
+[Ice Grim] Abrindo res://levels/05.tscn
+PASS TRAP 20 phase 4 clears at walk speed, wait=0
+PHASE4_WALK_ONLY_OK: wait=0, no dash, no run, physical key and exit
+[Ice Grim] Abrindo res://levels/04.tscn
+PASS TRAP 21 phase 4 key reachable without run/dash, wait=24
+[Ice Grim] Abrindo res://levels/05.tscn
+PASS TRAP 22 phase 4 clears at walk speed, wait=24
+PHASE4_WALK_ONLY_OK: wait=24, no dash, no run, physical key and exit
+[Ice Grim] Abrindo res://levels/04.tscn
+PASS TRAP 23 phase 4 key reachable without run/dash, wait=72
+[Ice Grim] Abrindo res://levels/05.tscn
+PASS TRAP 24 phase 4 clears at walk speed, wait=72
+PHASE4_WALK_ONLY_OK: wait=72, no dash, no run, physical key and exit
+TRAPS_TEST_OK: 24 checks; phase 4 physically cleared at walk speed in three timing variants
+
+Godot Engine v4.4.1.stable.official.49a5bc7b6 - https://godotengine.org
+
+PASS MUSIC_LIVES 01 music starts without a built-in loop
+PASS MUSIC_LIVES 02 cached source is not modified
+PASS MUSIC_LIVES 03 scene changes queue only the latest requested track
+PASS MUSIC_LIVES 04 changing scene does not restart or cut the playing track
+PASS MUSIC_LIVES 05 repeated requests do not interrupt playback
+PASS MUSIC_LIVES 06 native stream has a valid duration
+PASS MUSIC_LIVES 07 native audio finished emitted once
+PASS MUSIC_LIVES 08 next song starts only after native finished signal
+PASS MUSIC_LIVES 09 returning to the current song cancels an obsolete queued switch
+PASS MUSIC_LIVES 10 native stream has a valid duration
+PASS MUSIC_LIVES 11 native audio finished emitted once
+PASS MUSIC_LIVES 12 same scene repeats the complete song after its end
+PASS MUSIC_LIVES 13 native stream has a valid duration
+PASS MUSIC_LIVES 14 native audio finished emitted once
+PASS MUSIC_LIVES 15 second queued transition also waits for completion
+PASS MUSIC_LIVES 16 return to menu also leaves the current song playing to its end
+PASS MUSIC_LIVES 17 explicit shutdown stops playback and clears queued requests
+[Ice Grim] Abrindo res://levels/01.tscn
+[Ice Grim] Abrindo res://levels/06.tscn
+PASS MUSIC_LIVES 18 boss bonus is not displayed or usable during approach
+PASS MUSIC_LIVES 19 approach retains the one-hit campaign rule
+[Ice Grim] Abrindo res://levels/01.tscn
+PASS MUSIC_LIVES 20 approach Game Over restarts campaign
+[Ice Grim] Abrindo res://levels/06.tscn
+PASS MUSIC_LIVES 21 entering arena starts three lives
+PASS MUSIC_LIVES 22 HUD displays player lives separately from boss health
+PASS MUSIC_LIVES 23 closed boss contact consumes first life instead of ending campaign
+PASS MUSIC_LIVES 24 boss progress and campaign attempt survive life loss
+PASS MUSIC_LIVES 25 life loss returns player to safe platform with brief protection
+PASS MUSIC_LIVES 26 multiple overlapping attacks cannot drain lives during recovery
+PASS MUSIC_LIVES 27 pause freezes recovery protection and position
+PASS MUSIC_LIVES 28 second hit leaves one life and preserves boss health
+PASS MUSIC_LIVES 29 third hit produces Game Over
+[Ice Grim] Abrindo res://levels/01.tscn
+PASS MUSIC_LIVES 30 exhausted boss lives return to phase one on retry
+[Ice Grim] Abrindo res://levels/06.tscn
+PASS MUSIC_LIVES 31 fresh boss stage restores lives and clears recovery state
+MUSIC_LIVES_TEST_OK: 31 checks; real MP3 completion/queue/cancellation/repetition and three-life arena damage/recovery/Game Over
+
+Godot Engine v4.4.1.stable.official.49a5bc7b6 - https://godotengine.org
+
+[Ice Grim] Abrindo res://levels/01.tscn
+[Ice Grim] Abrindo res://levels/06.tscn
+PASS BOSS_INPUT 001 normal player input path
+PASS BOSS_INPUT 002 normal keyboard hit: hp=9 start=630 hold=3 delay=0
+PASS BOSS_INPUT 003 one hit only and safe recoil after key release
+[Ice Grim] Abrindo res://levels/06.tscn
+PASS BOSS_INPUT 004 normal player input path
+PASS BOSS_INPUT 005 normal keyboard hit: hp=9 start=630 hold=3 delay=3
+PASS BOSS_INPUT 006 one hit only and safe recoil after key release
+[Ice Grim] Abrindo res://levels/06.tscn
+PASS BOSS_INPUT 007 normal player input path
+PASS BOSS_INPUT 008 normal keyboard hit: hp=9 start=630 hold=3 delay=6
+PASS BOSS_INPUT 009 one hit only and safe recoil after key release
+[Ice Grim] Abrindo res://levels/06.tscn
+PASS BOSS_INPUT 010 normal player input path
+PASS BOSS_INPUT 011 normal keyboard hit: hp=9 start=630 hold=3 delay=10
+PASS BOSS_INPUT 012 one hit only and safe recoil after key release
+[Ice Grim] Abrindo res://levels/06.tscn
+PASS BOSS_INPUT 013 normal player input path
+PASS BOSS_INPUT 014 normal keyboard hit: hp=9 start=630 hold=3 delay=14
+PASS BOSS_INPUT 015 one hit only and safe recoil after key release
+[Ice Grim] Abrindo res://levels/06.tscn
+PASS BOSS_INPUT 016 normal player input path
+PASS BOSS_INPUT 017 normal keyboard hit: hp=9 start=630 hold=3 delay=18
+PASS BOSS_INPUT 018 one hit only and safe recoil after key release
+[Ice Grim] Abrindo res://levels/06.tscn
+PASS BOSS_INPUT 019 normal player input path
+PASS BOSS_INPUT 020 normal keyboard hit: hp=9 start=630 hold=3 delay=22
+PASS BOSS_INPUT 021 one hit only and safe recoil after key release
+[Ice Grim] Abrindo res://levels/06.tscn
+PASS BOSS_INPUT 022 normal player input path
+PASS BOSS_INPUT 023 normal keyboard hit: hp=9 start=630 hold=60 delay=0
+PASS BOSS_INPUT 024 one hit only and safe recoil after key release
+[Ice Grim] Abrindo res://levels/06.tscn
+PASS BOSS_INPUT 025 normal player input path
+PASS BOSS_INPUT 026 normal keyboard hit: hp=9 start=630 hold=60 delay=3
+PASS BOSS_INPUT 027 one hit only and safe recoil after key release
+[Ice Grim] Abrindo res://levels/06.tscn
+PASS BOSS_INPUT 028 normal player input path
+PASS BOSS_INPUT 029 normal keyboard hit: hp=9 start=630 hold=60 delay=6
+PASS BOSS_INPUT 030 one hit only and safe recoil after key release
+[Ice Grim] Abrindo res://levels/06.tscn
+PASS BOSS_INPUT 031 normal player input path
+PASS BOSS_INPUT 032 normal keyboard hit: hp=9 start=630 hold=60 delay=10
+PASS BOSS_INPUT 033 one hit only and safe recoil after key release
+[Ice Grim] Abrindo res://levels/06.tscn
+PASS BOSS_INPUT 034 normal player input path
+PASS BOSS_INPUT 035 normal keyboard hit: hp=9 start=630 hold=60 delay=14
+PASS BOSS_INPUT 036 one hit only and safe recoil after key release
+[Ice Grim] Abrindo res://levels/06.tscn
+PASS BOSS_INPUT 037 normal player input path
+PASS BOSS_INPUT 038 normal keyboard hit: hp=9 start=630 hold=60 delay=18
+PASS BOSS_INPUT 039 one hit only and safe recoil after key release
+[Ice Grim] Abrindo res://levels/06.tscn
+PASS BOSS_INPUT 040 normal player input path
+PASS BOSS_INPUT 041 normal keyboard hit: hp=9 start=630 hold=60 delay=22
+PASS BOSS_INPUT 042 one hit only and safe recoil after key release
+[Ice Grim] Abrindo res://levels/06.tscn
+PASS BOSS_INPUT 043 normal player input path
+PASS BOSS_INPUT 044 normal keyboard hit: hp=9 start=650 hold=3 delay=0
+PASS BOSS_INPUT 045 one hit only and safe recoil after key release
+[Ice Grim] Abrindo res://levels/06.tscn
+PASS BOSS_INPUT 046 normal player input path
+PASS BOSS_INPUT 047 normal keyboard hit: hp=9 start=650 hold=3 delay=3
+PASS BOSS_INPUT 048 one hit only and safe recoil after key release
+[Ice Grim] Abrindo res://levels/06.tscn
+PASS BOSS_INPUT 049 normal player input path
+PASS BOSS_INPUT 050 normal keyboard hit: hp=9 start=650 hold=3 delay=6
+PASS BOSS_INPUT 051 one hit only and safe recoil after key release
+[Ice Grim] Abrindo res://levels/06.tscn
+PASS BOSS_INPUT 052 normal player input path
+PASS BOSS_INPUT 053 normal keyboard hit: hp=9 start=650 hold=3 delay=10
+PASS BOSS_INPUT 054 one hit only and safe recoil after key release
+[Ice Grim] Abrindo res://levels/06.tscn
+PASS BOSS_INPUT 055 normal player input path
+PASS BOSS_INPUT 056 normal keyboard hit: hp=9 start=650 hold=3 delay=14
+PASS BOSS_INPUT 057 one hit only and safe recoil after key release
+[Ice Grim] Abrindo res://levels/06.tscn
+PASS BOSS_INPUT 058 normal player input path
+PASS BOSS_INPUT 059 normal keyboard hit: hp=9 start=650 hold=3 delay=18
+PASS BOSS_INPUT 060 one hit only and safe recoil after key release
+[Ice Grim] Abrindo res://levels/06.tscn
+PASS BOSS_INPUT 061 normal player input path
+PASS BOSS_INPUT 062 normal keyboard hit: hp=9 start=650 hold=3 delay=22
+PASS BOSS_INPUT 063 one hit only and safe recoil after key release
+[Ice Grim] Abrindo res://levels/06.tscn
+PASS BOSS_INPUT 064 normal player input path
+PASS BOSS_INPUT 065 normal keyboard hit: hp=9 start=650 hold=60 delay=0
+PASS BOSS_INPUT 066 one hit only and safe recoil after key release
+[Ice Grim] Abrindo res://levels/06.tscn
+PASS BOSS_INPUT 067 normal player input path
+PASS BOSS_INPUT 068 normal keyboard hit: hp=9 start=650 hold=60 delay=3
+PASS BOSS_INPUT 069 one hit only and safe recoil after key release
+[Ice Grim] Abrindo res://levels/06.tscn
+PASS BOSS_INPUT 070 normal player input path
+PASS BOSS_INPUT 071 normal keyboard hit: hp=9 start=650 hold=60 delay=6
+PASS BOSS_INPUT 072 one hit only and safe recoil after key release
+[Ice Grim] Abrindo res://levels/06.tscn
+PASS BOSS_INPUT 073 normal player input path
+PASS BOSS_INPUT 074 normal keyboard hit: hp=9 start=650 hold=60 delay=10
+PASS BOSS_INPUT 075 one hit only and safe recoil after key release
+[Ice Grim] Abrindo res://levels/06.tscn
+PASS BOSS_INPUT 076 normal player input path
+PASS BOSS_INPUT 077 normal keyboard hit: hp=9 start=650 hold=60 delay=14
+PASS BOSS_INPUT 078 one hit only and safe recoil after key release
+[Ice Grim] Abrindo res://levels/06.tscn
+PASS BOSS_INPUT 079 normal player input path
+PASS BOSS_INPUT 080 normal keyboard hit: hp=9 start=650 hold=60 delay=18
+PASS BOSS_INPUT 081 one hit only and safe recoil after key release
+[Ice Grim] Abrindo res://levels/06.tscn
+PASS BOSS_INPUT 082 normal player input path
+PASS BOSS_INPUT 083 normal keyboard hit: hp=9 start=650 hold=60 delay=22
+PASS BOSS_INPUT 084 one hit only and safe recoil after key release
+[Ice Grim] Abrindo res://levels/06.tscn
+PASS BOSS_INPUT 085 normal player input path
+PASS BOSS_INPUT 086 normal keyboard hit: hp=6 start=630 hold=3 delay=0
+PASS BOSS_INPUT 087 one hit only and safe recoil after key release
+[Ice Grim] Abrindo res://levels/06.tscn
+PASS BOSS_INPUT 088 normal player input path
+PASS BOSS_INPUT 089 normal keyboard hit: hp=6 start=630 hold=3 delay=3
+PASS BOSS_INPUT 090 one hit only and safe recoil after key release
+[Ice Grim] Abrindo res://levels/06.tscn
+PASS BOSS_INPUT 091 normal player input path
+PASS BOSS_INPUT 092 normal keyboard hit: hp=6 start=630 hold=3 delay=6
+PASS BOSS_INPUT 093 one hit only and safe recoil after key release
+[Ice Grim] Abrindo res://levels/06.tscn
+PASS BOSS_INPUT 094 normal player input path
+PASS BOSS_INPUT 095 normal keyboard hit: hp=6 start=630 hold=3 delay=10
+PASS BOSS_INPUT 096 one hit only and safe recoil after key release
+[Ice Grim] Abrindo res://levels/06.tscn
+PASS BOSS_INPUT 097 normal player input path
+PASS BOSS_INPUT 098 normal keyboard hit: hp=6 start=630 hold=3 delay=14
+PASS BOSS_INPUT 099 one hit only and safe recoil after key release
+[Ice Grim] Abrindo res://levels/06.tscn
+PASS BOSS_INPUT 100 normal player input path
+PASS BOSS_INPUT 101 normal keyboard hit: hp=6 start=630 hold=3 delay=18
+PASS BOSS_INPUT 102 one hit only and safe recoil after key release
+[Ice Grim] Abrindo res://levels/06.tscn
+PASS BOSS_INPUT 103 normal player input path
+PASS BOSS_INPUT 104 normal keyboard hit: hp=6 start=630 hold=3 delay=22
+PASS BOSS_INPUT 105 one hit only and safe recoil after key release
+[Ice Grim] Abrindo res://levels/06.tscn
+PASS BOSS_INPUT 106 normal player input path
+PASS BOSS_INPUT 107 normal keyboard hit: hp=6 start=630 hold=60 delay=0
+PASS BOSS_INPUT 108 one hit only and safe recoil after key release
+[Ice Grim] Abrindo res://levels/06.tscn
+PASS BOSS_INPUT 109 normal player input path
+PASS BOSS_INPUT 110 normal keyboard hit: hp=6 start=630 hold=60 delay=3
+PASS BOSS_INPUT 111 one hit only and safe recoil after key release
+[Ice Grim] Abrindo res://levels/06.tscn
+PASS BOSS_INPUT 112 normal player input path
+PASS BOSS_INPUT 113 normal keyboard hit: hp=6 start=630 hold=60 delay=6
+PASS BOSS_INPUT 114 one hit only and safe recoil after key release
+[Ice Grim] Abrindo res://levels/06.tscn
+PASS BOSS_INPUT 115 normal player input path
+PASS BOSS_INPUT 116 normal keyboard hit: hp=6 start=630 hold=60 delay=10
+PASS BOSS_INPUT 117 one hit only and safe recoil after key release
+[Ice Grim] Abrindo res://levels/06.tscn
+PASS BOSS_INPUT 118 normal player input path
+PASS BOSS_INPUT 119 normal keyboard hit: hp=6 start=630 hold=60 delay=14
+PASS BOSS_INPUT 120 one hit only and safe recoil after key release
+[Ice Grim] Abrindo res://levels/06.tscn
+PASS BOSS_INPUT 121 normal player input path
+PASS BOSS_INPUT 122 normal keyboard hit: hp=6 start=630 hold=60 delay=18
+PASS BOSS_INPUT 123 one hit only and safe recoil after key release
+[Ice Grim] Abrindo res://levels/06.tscn
+PASS BOSS_INPUT 124 normal player input path
+PASS BOSS_INPUT 125 normal keyboard hit: hp=6 start=630 hold=60 delay=22
+PASS BOSS_INPUT 126 one hit only and safe recoil after key release
+[Ice Grim] Abrindo res://levels/06.tscn
+PASS BOSS_INPUT 127 normal player input path
+PASS BOSS_INPUT 128 normal keyboard hit: hp=6 start=650 hold=3 delay=0
+PASS BOSS_INPUT 129 one hit only and safe recoil after key release
+[Ice Grim] Abrindo res://levels/06.tscn
+PASS BOSS_INPUT 130 normal player input path
+PASS BOSS_INPUT 131 normal keyboard hit: hp=6 start=650 hold=3 delay=3
+PASS BOSS_INPUT 132 one hit only and safe recoil after key release
+[Ice Grim] Abrindo res://levels/06.tscn
+PASS BOSS_INPUT 133 normal player input path
+PASS BOSS_INPUT 134 normal keyboard hit: hp=6 start=650 hold=3 delay=6
+PASS BOSS_INPUT 135 one hit only and safe recoil after key release
+[Ice Grim] Abrindo res://levels/06.tscn
+PASS BOSS_INPUT 136 normal player input path
+PASS BOSS_INPUT 137 normal keyboard hit: hp=6 start=650 hold=3 delay=10
+PASS BOSS_INPUT 138 one hit only and safe recoil after key release
+[Ice Grim] Abrindo res://levels/06.tscn
+PASS BOSS_INPUT 139 normal player input path
+PASS BOSS_INPUT 140 normal keyboard hit: hp=6 start=650 hold=3 delay=14
+PASS BOSS_INPUT 141 one hit only and safe recoil after key release
+[Ice Grim] Abrindo res://levels/06.tscn
+PASS BOSS_INPUT 142 normal player input path
+PASS BOSS_INPUT 143 normal keyboard hit: hp=6 start=650 hold=3 delay=18
+PASS BOSS_INPUT 144 one hit only and safe recoil after key release
+[Ice Grim] Abrindo res://levels/06.tscn
+PASS BOSS_INPUT 145 normal player input path
+PASS BOSS_INPUT 146 normal keyboard hit: hp=6 start=650 hold=3 delay=22
+PASS BOSS_INPUT 147 one hit only and safe recoil after key release
+[Ice Grim] Abrindo res://levels/06.tscn
+PASS BOSS_INPUT 148 normal player input path
+PASS BOSS_INPUT 149 normal keyboard hit: hp=6 start=650 hold=60 delay=0
+PASS BOSS_INPUT 150 one hit only and safe recoil after key release
+[Ice Grim] Abrindo res://levels/06.tscn
+PASS BOSS_INPUT 151 normal player input path
+PASS BOSS_INPUT 152 normal keyboard hit: hp=6 start=650 hold=60 delay=3
+PASS BOSS_INPUT 153 one hit only and safe recoil after key release
+[Ice Grim] Abrindo res://levels/06.tscn
+PASS BOSS_INPUT 154 normal player input path
+PASS BOSS_INPUT 155 normal keyboard hit: hp=6 start=650 hold=60 delay=6
+PASS BOSS_INPUT 156 one hit only and safe recoil after key release
+[Ice Grim] Abrindo res://levels/06.tscn
+PASS BOSS_INPUT 157 normal player input path
+PASS BOSS_INPUT 158 normal keyboard hit: hp=6 start=650 hold=60 delay=10
+PASS BOSS_INPUT 159 one hit only and safe recoil after key release
+[Ice Grim] Abrindo res://levels/06.tscn
+PASS BOSS_INPUT 160 normal player input path
+PASS BOSS_INPUT 161 normal keyboard hit: hp=6 start=650 hold=60 delay=14
+PASS BOSS_INPUT 162 one hit only and safe recoil after key release
+[Ice Grim] Abrindo res://levels/06.tscn
+PASS BOSS_INPUT 163 normal player input path
+PASS BOSS_INPUT 164 normal keyboard hit: hp=6 start=650 hold=60 delay=18
+PASS BOSS_INPUT 165 one hit only and safe recoil after key release
+[Ice Grim] Abrindo res://levels/06.tscn
+PASS BOSS_INPUT 166 normal player input path
+PASS BOSS_INPUT 167 normal keyboard hit: hp=6 start=650 hold=60 delay=22
+PASS BOSS_INPUT 168 one hit only and safe recoil after key release
+[Ice Grim] Abrindo res://levels/06.tscn
+PASS BOSS_INPUT 169 normal player input path
+PASS BOSS_INPUT 170 normal keyboard hit: hp=3 start=630 hold=3 delay=0
+PASS BOSS_INPUT 171 one hit only and safe recoil after key release
+[Ice Grim] Abrindo res://levels/06.tscn
+PASS BOSS_INPUT 172 normal player input path
+PASS BOSS_INPUT 173 normal keyboard hit: hp=3 start=630 hold=3 delay=3
+PASS BOSS_INPUT 174 one hit only and safe recoil after key release
+[Ice Grim] Abrindo res://levels/06.tscn
+PASS BOSS_INPUT 175 normal player input path
+PASS BOSS_INPUT 176 normal keyboard hit: hp=3 start=630 hold=3 delay=6
+PASS BOSS_INPUT 177 one hit only and safe recoil after key release
+[Ice Grim] Abrindo res://levels/06.tscn
+PASS BOSS_INPUT 178 normal player input path
+PASS BOSS_INPUT 179 normal keyboard hit: hp=3 start=630 hold=3 delay=10
+PASS BOSS_INPUT 180 one hit only and safe recoil after key release
+[Ice Grim] Abrindo res://levels/06.tscn
+PASS BOSS_INPUT 181 normal player input path
+PASS BOSS_INPUT 182 normal keyboard hit: hp=3 start=630 hold=3 delay=14
+PASS BOSS_INPUT 183 one hit only and safe recoil after key release
+[Ice Grim] Abrindo res://levels/06.tscn
+PASS BOSS_INPUT 184 normal player input path
+PASS BOSS_INPUT 185 normal keyboard hit: hp=3 start=630 hold=3 delay=18
+PASS BOSS_INPUT 186 one hit only and safe recoil after key release
+[Ice Grim] Abrindo res://levels/06.tscn
+PASS BOSS_INPUT 187 normal player input path
+PASS BOSS_INPUT 188 normal keyboard hit: hp=3 start=630 hold=3 delay=22
+PASS BOSS_INPUT 189 one hit only and safe recoil after key release
+[Ice Grim] Abrindo res://levels/06.tscn
+PASS BOSS_INPUT 190 normal player input path
+PASS BOSS_INPUT 191 normal keyboard hit: hp=3 start=630 hold=60 delay=0
+PASS BOSS_INPUT 192 one hit only and safe recoil after key release
+[Ice Grim] Abrindo res://levels/06.tscn
+PASS BOSS_INPUT 193 normal player input path
+PASS BOSS_INPUT 194 normal keyboard hit: hp=3 start=630 hold=60 delay=3
+PASS BOSS_INPUT 195 one hit only and safe recoil after key release
+[Ice Grim] Abrindo res://levels/06.tscn
+PASS BOSS_INPUT 196 normal player input path
+PASS BOSS_INPUT 197 normal keyboard hit: hp=3 start=630 hold=60 delay=6
+PASS BOSS_INPUT 198 one hit only and safe recoil after key release
+[Ice Grim] Abrindo res://levels/06.tscn
+PASS BOSS_INPUT 199 normal player input path
+PASS BOSS_INPUT 200 normal keyboard hit: hp=3 start=630 hold=60 delay=10
+PASS BOSS_INPUT 201 one hit only and safe recoil after key release
+[Ice Grim] Abrindo res://levels/06.tscn
+PASS BOSS_INPUT 202 normal player input path
+PASS BOSS_INPUT 203 normal keyboard hit: hp=3 start=630 hold=60 delay=14
+PASS BOSS_INPUT 204 one hit only and safe recoil after key release
+[Ice Grim] Abrindo res://levels/06.tscn
+PASS BOSS_INPUT 205 normal player input path
+PASS BOSS_INPUT 206 normal keyboard hit: hp=3 start=630 hold=60 delay=18
+PASS BOSS_INPUT 207 one hit only and safe recoil after key release
+[Ice Grim] Abrindo res://levels/06.tscn
+PASS BOSS_INPUT 208 normal player input path
+PASS BOSS_INPUT 209 normal keyboard hit: hp=3 start=630 hold=60 delay=22
+PASS BOSS_INPUT 210 one hit only and safe recoil after key release
+[Ice Grim] Abrindo res://levels/06.tscn
+PASS BOSS_INPUT 211 normal player input path
+PASS BOSS_INPUT 212 normal keyboard hit: hp=3 start=650 hold=3 delay=0
+PASS BOSS_INPUT 213 one hit only and safe recoil after key release
+[Ice Grim] Abrindo res://levels/06.tscn
+PASS BOSS_INPUT 214 normal player input path
+PASS BOSS_INPUT 215 normal keyboard hit: hp=3 start=650 hold=3 delay=3
+PASS BOSS_INPUT 216 one hit only and safe recoil after key release
+[Ice Grim] Abrindo res://levels/06.tscn
+PASS BOSS_INPUT 217 normal player input path
+PASS BOSS_INPUT 218 normal keyboard hit: hp=3 start=650 hold=3 delay=6
+PASS BOSS_INPUT 219 one hit only and safe recoil after key release
+[Ice Grim] Abrindo res://levels/06.tscn
+PASS BOSS_INPUT 220 normal player input path
+PASS BOSS_INPUT 221 normal keyboard hit: hp=3 start=650 hold=3 delay=10
+PASS BOSS_INPUT 222 one hit only and safe recoil after key release
+[Ice Grim] Abrindo res://levels/06.tscn
+PASS BOSS_INPUT 223 normal player input path
+PASS BOSS_INPUT 224 normal keyboard hit: hp=3 start=650 hold=3 delay=14
+PASS BOSS_INPUT 225 one hit only and safe recoil after key release
+[Ice Grim] Abrindo res://levels/06.tscn
+PASS BOSS_INPUT 226 normal player input path
+PASS BOSS_INPUT 227 normal keyboard hit: hp=3 start=650 hold=3 delay=18
+PASS BOSS_INPUT 228 one hit only and safe recoil after key release
+[Ice Grim] Abrindo res://levels/06.tscn
+PASS BOSS_INPUT 229 normal player input path
+PASS BOSS_INPUT 230 normal keyboard hit: hp=3 start=650 hold=3 delay=22
+PASS BOSS_INPUT 231 one hit only and safe recoil after key release
+[Ice Grim] Abrindo res://levels/06.tscn
+PASS BOSS_INPUT 232 normal player input path
+PASS BOSS_INPUT 233 normal keyboard hit: hp=3 start=650 hold=60 delay=0
+PASS BOSS_INPUT 234 one hit only and safe recoil after key release
+[Ice Grim] Abrindo res://levels/06.tscn
+PASS BOSS_INPUT 235 normal player input path
+PASS BOSS_INPUT 236 normal keyboard hit: hp=3 start=650 hold=60 delay=3
+PASS BOSS_INPUT 237 one hit only and safe recoil after key release
+[Ice Grim] Abrindo res://levels/06.tscn
+PASS BOSS_INPUT 238 normal player input path
+PASS BOSS_INPUT 239 normal keyboard hit: hp=3 start=650 hold=60 delay=6
+PASS BOSS_INPUT 240 one hit only and safe recoil after key release
+[Ice Grim] Abrindo res://levels/06.tscn
+PASS BOSS_INPUT 241 normal player input path
+PASS BOSS_INPUT 242 normal keyboard hit: hp=3 start=650 hold=60 delay=10
+PASS BOSS_INPUT 243 one hit only and safe recoil after key release
+[Ice Grim] Abrindo res://levels/06.tscn
+PASS BOSS_INPUT 244 normal player input path
+PASS BOSS_INPUT 245 normal keyboard hit: hp=3 start=650 hold=60 delay=14
+PASS BOSS_INPUT 246 one hit only and safe recoil after key release
+[Ice Grim] Abrindo res://levels/06.tscn
+PASS BOSS_INPUT 247 normal player input path
+PASS BOSS_INPUT 248 normal keyboard hit: hp=3 start=650 hold=60 delay=18
+PASS BOSS_INPUT 249 one hit only and safe recoil after key release
+[Ice Grim] Abrindo res://levels/06.tscn
+PASS BOSS_INPUT 250 normal player input path
+PASS BOSS_INPUT 251 normal keyboard hit: hp=3 start=650 hold=60 delay=22
+PASS BOSS_INPUT 252 one hit only and safe recoil after key release
+[Ice Grim] Abrindo res://levels/06.tscn
+PASS BOSS_INPUT 253 normal player input path
+PASS BOSS_INPUT 254 dash started during opening finishes safely after shield closes
+[Ice Grim] Abrindo res://levels/06.tscn
+PASS BOSS_INPUT 255 normal player input path
+PASS BOSS_INPUT 256 open body contact is safe, no passive damage
+[Ice Grim] Abrindo res://levels/06.tscn
+PASS BOSS_INPUT 257 normal player input path
+PASS BOSS_INPUT 258 dash into closed boss costs one life
+[Ice Grim] Abrindo res://levels/06.tscn
+PASS BOSS_INPUT 259 normal player input path
+PASS BOSS_INPUT 260 ordinary contact with closed boss costs one life
+[Ice Grim] Abrindo res://levels/06.tscn
+PASS BOSS_INPUT 261 normal player input path
+PASS BOSS_INPUT 262 open core does not prevent losing a life to spikes
+[Ice Grim] Abrindo res://levels/06.tscn
+LAND 6 (340.3737, 483.999) key=false
+LAND 6 (440.1707, 419.9253) key=false
+LAND 6 (656.1455, 483.999) key=false
+LAND 6 (800.3629, 483.999) key=false
+LAND 6 (914.3802, 483.9529) key=false
+LAND 6 (1235.351, 459.9732) key=false
+LAND 6 (1385.375, 419.9871) key=false
+LAND 6 (1540.372, 379.9874) key=false
+LAND 6 (1673.347, 483.9636) key=false
+LAND 6 (1795.382, 483.9998) key=false
+LAND 6 (1874.382, 483.9529) key=false
+LAND 6 (2235.38, 483.999) key=false
+LAND 6 (2560.381, 451.9816) key=false
+LAND 6 (2595.374, 451.9525) key=false
+LAND 6 (2670.38, 419.9821) key=false
+LAND 6 (2735.375, 483.9534) key=false
+LAND 6 (2834.364, 483.9996) key=false
+LAND 6 (3155.263, 457.9252) key=false
+LAND 6 (3305.453, 419.9921) key=false
+LAND 6 (3530.317, 483.9873) key=false
+LAND 6 (3741.347, 483.999) key=false
+LAND 6 (4079.068, 429.9253) key=false
+LAND 6 (4245.349, 389.9861) key=false
+LAND 6 (4440.373, 401.9852) key=false
+KEYBOARD_BOSS_HIT hp=8 time=5.28
+KEYBOARD_BOSS_HIT hp=7 time=10.90
+KEYBOARD_BOSS_HIT hp=6 time=16.58
+KEYBOARD_BOSS_HIT hp=5 time=23.43
+KEYBOARD_BOSS_HIT hp=4 time=30.12
+KEYBOARD_BOSS_HIT hp=3 time=36.80
+KEYBOARD_BOSS_HIT hp=2 time=43.68
+KEYBOARD_BOSS_HIT hp=1 time=50.63
+BOSS_KEYBOARD_FIGHT_OK: nine keyboard hits, all attacks enabled, 57.42s
+PASS BOSS_INPUT 263 complete boss route and nine keyboard hits with every attack enabled
+BOSS_INPUT_TEST_OK: 263 checks; 84 real-keyboard attack variants across all three phases, recoil, opening boundary closed-body/spike damage and full nine-hit keyboard fight
+
+Godot Engine v4.4.1.stable.official.49a5bc7b6 - https://godotengine.org
+
+[Ice Grim] Abrindo res://levels/01.tscn
+[Ice Grim] Abrindo res://levels/06.tscn
+LAND 6 (340.3661, 483.999) key=false
+LAND 6 (440.1707, 419.9253) key=false
+LAND 6 (656.1455, 483.999) key=false
+LAND 6 (800.3629, 483.999) key=false
+LAND 6 (914.3802, 483.9529) key=false
+LAND 6 (1235.351, 459.9732) key=false
+LAND 6 (1385.375, 419.9871) key=false
+LAND 6 (1540.372, 379.9874) key=false
+LAND 6 (1673.347, 483.9636) key=false
+LAND 6 (1795.382, 483.9998) key=false
+LAND 6 (1874.382, 483.9529) key=false
+LAND 6 (2235.38, 483.999) key=false
+LAND 6 (2560.381, 451.9816) key=false
+LAND 6 (2595.374, 451.9525) key=false
+LAND 6 (2670.38, 419.9821) key=false
+LAND 6 (2735.375, 483.9534) key=false
+LAND 6 (2834.364, 483.9996) key=false
+LAND 6 (3155.263, 457.9252) key=false
+LAND 6 (3305.453, 419.9921) key=false
+LAND 6 (3530.317, 483.9873) key=false
+LAND 6 (3741.347, 483.999) key=false
+LAND 6 (4079.068, 429.9253) key=false
+LAND 6 (4245.349, 389.9861) key=false
+LAND 6 (4440.373, 401.9852) key=false
+BOSS_HIT hp=8 at 5.32 pos=(4534.31, 360.1324)
+BOSS_HIT hp=7 at 10.93 pos=(4534.308, 360.1324)
+BOSS_HIT hp=6 at 16.55 pos=(4534.308, 360.1324)
+BOSS_HIT hp=5 at 23.18 pos=(4533.874, 360.1325)
+BOSS_HIT hp=4 at 29.82 pos=(4533.874, 360.1325)
+BOSS_HIT hp=3 at 36.45 pos=(4533.874, 360.1325)
+BOSS_HIT hp=2 at 43.27 pos=(4534.31, 360.1324)
+BOSS_HIT hp=1 at 50.08 pos=(4534.31, 360.1324)
+BOSS_PHYSICAL_CLEAR 56.90s
+[Ice Grim] Abrindo res://levels/06.tscn
+[Ice Grim] Abrindo res://levels/01.tscn
+[Ice Grim] Abrindo res://levels/06.tscn
+[Ice Grim] Abrindo res://levels/06.tscn
+BOSS_TEST_OK: long route, nine physical dash hits, three phases, reward, reset, active pause, damage gates, death rule, corrected art/music credits and soundtrack
+
+Godot Engine v4.4.1.stable.official.49a5bc7b6 - https://godotengine.org
+
+[Ice Grim] Abrindo res://levels/01.tscn
+LAND 1 (340.3661, 483.999) key=false
+LAND 1 (440.1707, 419.9253) key=true
+LAND 1 (656.1455, 483.999) key=true
+LAND 1 (800.3629, 483.999) key=true
+[Ice Grim] Abrindo res://levels/02.tscn
+TRAVERSAL_PHASE_OK 1
+LAND 2 (336.0299, 483.9977) key=false
+LAND 2 (454.1973, 419.9252) key=true
+LAND 2 (650.382, 483.9859) key=true
+LAND 2 (835.3812, 483.999) key=true
+[Ice Grim] Abrindo res://levels/03.tscn
+TRAVERSAL_PHASE_OK 2
+LAND 3 (275.3618, 459.9732) key=false
+LAND 3 (425.3749, 419.9871) key=false
+LAND 3 (580.3717, 379.9874) key=true
+LAND 3 (713.3471, 483.9636) key=true
+LAND 3 (835.3817, 483.9998) key=true
+[Ice Grim] Abrindo res://levels/04.tscn
+TRAVERSAL_PHASE_OK 3
+LAND 4 (315.3662, 483.999) key=false
+LAND 4 (640.3807, 451.9816) key=false
+LAND 4 (675.3739, 451.9525) key=false
+LAND 4 (750.3802, 419.9821) key=true
+LAND 4 (815.3745, 483.9534) key=true
+[Ice Grim] Abrindo res://levels/05.tscn
+TRAVERSAL_PHASE_OK 4
+LAND 5 (275.2049, 457.9252) key=false
+LAND 5 (426.1092, 419.9921) key=false
+LAND 5 (650.3408, 483.9873) key=true
+LAND 5 (861.3467, 483.999) key=true
+[Ice Grim] Abrindo res://levels/06.tscn
+TRAVERSAL_PHASE_OK 5
+LAND 6 (340.3809, 483.999) key=false
+LAND 6 (440.1707, 419.9253) key=false
+LAND 6 (656.1455, 483.999) key=false
+LAND 6 (800.3629, 483.999) key=false
+LAND 6 (914.3802, 483.9529) key=false
+LAND 6 (1235.351, 459.9732) key=false
+LAND 6 (1385.375, 419.9871) key=false
+LAND 6 (1540.372, 379.9874) key=false
+LAND 6 (1673.347, 483.9636) key=false
+LAND 6 (1795.382, 483.9998) key=false
+LAND 6 (1874.382, 483.9529) key=false
+LAND 6 (2235.38, 483.999) key=false
+LAND 6 (2560.381, 451.9816) key=false
+LAND 6 (2595.374, 451.9525) key=false
+LAND 6 (2670.38, 419.9821) key=false
+LAND 6 (2735.375, 483.9534) key=false
+LAND 6 (2834.364, 483.9996) key=false
+LAND 6 (3155.263, 457.9252) key=false
+LAND 6 (3305.453, 419.9921) key=false
+LAND 6 (3530.317, 483.9873) key=false
+LAND 6 (3741.347, 483.999) key=false
+LAND 6 (4079.068, 429.9253) key=false
+LAND 6 (4245.349, 389.9861) key=false
+LAND 6 (4440.373, 401.9852) key=false
+BOSS_HIT hp=8 at 5.32 pos=(4534.31, 360.1324)
+BOSS_HIT hp=7 at 10.93 pos=(4534.308, 360.1324)
+BOSS_HIT hp=6 at 16.55 pos=(4534.308, 360.1324)
+BOSS_HIT hp=5 at 23.18 pos=(4533.874, 360.1325)
+BOSS_HIT hp=4 at 29.82 pos=(4533.874, 360.1325)
+BOSS_HIT hp=3 at 36.45 pos=(4533.874, 360.1325)
+BOSS_HIT hp=2 at 43.27 pos=(4534.31, 360.1324)
+BOSS_HIT hp=1 at 50.08 pos=(4534.31, 360.1324)
+BOSS_PHYSICAL_CLEAR 56.90s
+[Ice Grim] Abrindo res://levels/00.tscn
+LAND 0 (329.6414, 483.9977) key=false
+LAND 0 (590.3535, 429.9825) key=true
+LAND 0 (790.368, 483.999) key=true
+TRAVERSAL_OK: six phases, nine boss hits and tutorial completed with physical movement, key and exit collisions (GDScript)

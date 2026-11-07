@@ -1,0 +1,31 @@
+Godot Engine v4.4.1.stable.official.49a5bc7b6 - https://godotengine.org
+
+[Ice Grim] Abrindo res://levels/06.tscn
+PASS UI 01 preview opens actual victory screen
+PASS UI 02 campaign HUD and title artwork do not overlap victory
+PASS UI 03 improved result gets record badge
+PASS UI 04 actual time and new best are displayed
+PASS UI 05 victory summarizes lives, stages and attempt
+PASS UI 06 replay receives initial keyboard focus
+PASS UI 07 victory freezes campaign timer and physics
+PASS UI 08 celebration animates without accumulating particle nodes
+PASS UI 09 labels and buttons fit viewport and caption stays in its column
+PASS UI 10 duplicate exit cannot rebuild victory or erase record badge
+PASS UI 11 keyboard moves focus to menu
+PASS UI 12 Enter activates menu action and cleans world
+PASS UI 13 leaving victory removes its animation
+[Ice Grim] Abrindo res://levels/06.tscn
+PASS UI 14 first completion has its own celebration badge
+PASS UI 15 first completion sets campaign record
+[Ice Grim] Abrindo res://levels/01.tscn
+PASS UI 16 mouse replay starts a fresh campaign in phase one
+[Ice Grim] Abrindo res://levels/06.tscn
+PASS UI 17 slower victory does not invent a new record
+PASS UI 18 slower run preserves and displays previous best
+PASS UI 19 remaining life count is taken from the actual encounter
+PASS UI 20 mouse menu action works
+[Ice Grim] Abrindo res://levels/06.tscn
+PASS UI 21 faster run updates record
+[Ice Grim] Abrindo res://levels/01.tscn
+PASS UI 22 Enter on initial replay button starts gameplay
+VICTORY_TEST_OK: 22 checks; first/new/slower records, real stats, bounded animation, mouse/keyboard replay/menu, cleanup and frozen campaign

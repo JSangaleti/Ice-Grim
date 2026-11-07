@@ -1,0 +1,131 @@
+Godot Engine v4.4.1.stable.official.49a5bc7b6 - https://godotengine.org
+
+first_scan_filesystem: begin: Project initialization steps: 5
+	first_scan_filesystem: step 0: Scanning file structure...
+	first_scan_filesystem: step 1: Loading global class names...
+	first_scan_filesystem: step 2: Verifying GDExtensions...
+	first_scan_filesystem: step 3: Creating autoload scripts...
+	first_scan_filesystem: step 4: Initializing plugins...
+	first_scan_filesystem: step 5: Starting file scan...
+first_scan_filesystem: end
+loading_editor_layout: begin: Loading editor steps: 5
+	loading_editor_layout: step 0: Loading editor layout...
+loading_editor_layout: end
+Godot Engine v4.4.1.stable.official.49a5bc7b6 - https://godotengine.org
+
+PASS UI 01 opening advances to main menu
+[Ice Grim] Abrindo res://levels/01.tscn
+PASS UI 02 mouse Jogar opens playable phase 1
+PASS UI 03 keyboard moves the player after menu start
+PASS UI 04 Escape opens pause
+PASS UI 05 mouse Continuar resumes gameplay
+[Ice Grim] Abrindo res://levels/00.tscn
+PASS UI 06 mouse Tutorial opens independent course
+[Ice Grim] Abrindo res://levels/01.tscn
+PASS UI 07 Enter on Jogar opens phase 1
+[Ice Grim] Abrindo res://levels/00.tscn
+PASS UI 08 keyboard navigates and opens Tutorial
+PASS UI 09 mouse Credits works
+PASS UI 10 mouse return from Credits works
+PASS UI 11 mouse Settings works
+PASS UI 12 mouse return from Settings works
+[Ice Grim] Abrindo res://levels/01.tscn
+PASS UI 13 Enter starts even without GUI focus
+UI_TEST_OK: 13 routed mouse and keyboard checks
+Godot Engine v4.4.1.stable.official.49a5bc7b6 - https://godotengine.org
+
+[Ice Grim] Abrindo res://levels/01.tscn
+PASS 01 campaign starts at phase 1
+PASS 02 spawn rests on physical floor
+PASS 03 walking accelerates and moves
+PASS 04 jump rises under real gravity
+PASS 05 dash consumes charge
+PASS 06 landing restores dash
+PASS 07 pause freezes physics and timer
+PASS 08 dash does not grant invulnerability against spikes
+[Ice Grim] Abrindo res://levels/01.tscn
+PASS 09 death restores campaign, key and attempt
+[Ice Grim] Abrindo res://levels/00.tscn
+PASS 10 crouching traverses low tunnel
+PASS 11 ceiling prevents standing inside tunnel
+PASS 12 standing restored after tunnel
+[Ice Grim] Abrindo res://levels/00.tscn
+PASS 13 tutorial death stays outside campaign
+[Ice Grim] Abrindo res://levels/03.tscn
+PASS 14 crumble support collapses after stepping on it
+[Ice Grim] Abrindo res://levels/03.tscn
+PASS 15 scene reload restores crumble platform
+[Ice Grim] Abrindo res://levels/04.tscn
+PASS 16 falling scoop warns before dropping
+PASS 17 scoop falls after deterministic warning
+[Ice Grim] Abrindo res://levels/01.tscn
+[Ice Grim] Abrindo res://levels/02.tscn
+PASS 18 jelly contact is lethal
+[Ice Grim] Abrindo res://levels/01.tscn
+PASS 19 later-phase death resets to phase 1
+[Ice Grim] Abrindo res://levels/05.tscn
+PASS 20 crouching avoids a high cone projectile
+PASS 21 standing is vulnerable to high cone projectile
+[Ice Grim] Abrindo res://levels/01.tscn
+PASS 22 phase 1 loaded in order
+PASS 23 phase 1 exit rejects missing key
+PASS 24 phase 1 key collected
+[Ice Grim] Abrindo res://levels/02.tscn
+PASS 25 phase 2 loaded in order
+PASS 26 phase 2 exit rejects missing key
+PASS 27 phase 2 key collected
+[Ice Grim] Abrindo res://levels/03.tscn
+PASS 28 phase 3 loaded in order
+PASS 29 phase 3 exit rejects missing key
+PASS 30 phase 3 key collected
+[Ice Grim] Abrindo res://levels/04.tscn
+PASS 31 phase 4 loaded in order
+PASS 32 phase 4 exit rejects missing key
+PASS 33 phase 4 key collected
+[Ice Grim] Abrindo res://levels/05.tscn
+PASS 34 phase 5 loaded in order
+PASS 35 phase 5 exit rejects missing key
+PASS 36 phase 5 key collected
+PASS 37 fifth exit ends in victory
+[Ice Grim] Abrindo res://levels/00.tscn
+PASS 38 tutorial completion returns to menu
+PASS 39 keyboard and gamepad bindings installed
+SELF_TEST_OK: 39 integration checks (GDScript)
+Godot Engine v4.4.1.stable.official.49a5bc7b6 - https://godotengine.org
+
+[Ice Grim] Abrindo res://levels/01.tscn
+LAND 1 (340.3661, 483.999) key=false
+LAND 1 (440.1707, 419.9253) key=true
+LAND 1 (656.1455, 483.999) key=true
+LAND 1 (800.3629, 483.999) key=true
+[Ice Grim] Abrindo res://levels/02.tscn
+TRAVERSAL_PHASE_OK 1
+LAND 2 (336.0299, 483.9977) key=false
+LAND 2 (454.1973, 419.9252) key=true
+LAND 2 (650.382, 483.9859) key=true
+LAND 2 (835.3812, 483.999) key=true
+[Ice Grim] Abrindo res://levels/03.tscn
+TRAVERSAL_PHASE_OK 2
+LAND 3 (275.3618, 459.9732) key=false
+LAND 3 (425.3749, 419.9871) key=false
+LAND 3 (580.3717, 379.9874) key=true
+LAND 3 (713.3471, 483.9636) key=true
+LAND 3 (835.3817, 483.9998) key=true
+[Ice Grim] Abrindo res://levels/04.tscn
+TRAVERSAL_PHASE_OK 3
+LAND 4 (329.6207, 483.9977) key=false
+LAND 4 (654.5412, 419.9252) key=false
+LAND 4 (710.3544, 419.999) key=true
+LAND 4 (784.3793, 483.9537) key=true
+[Ice Grim] Abrindo res://levels/05.tscn
+TRAVERSAL_PHASE_OK 4
+LAND 5 (275.2049, 457.9252) key=false
+LAND 5 (426.1092, 419.9921) key=true
+LAND 5 (650.3408, 483.9873) key=true
+LAND 5 (861.3467, 483.999) key=true
+TRAVERSAL_PHASE_OK 5
+[Ice Grim] Abrindo res://levels/00.tscn
+LAND 0 (329.6414, 483.9977) key=false
+LAND 0 (590.3535, 429.9825) key=true
+LAND 0 (790.368, 483.999) key=true
+TRAVERSAL_OK: five phases and tutorial completed with physical movement, key and exit collisions (GDScript)

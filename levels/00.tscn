@@ -1,0 +1,71 @@
+[gd_scene load_steps=6 format=3]
+[ext_resource type="Script" path="res://gd/world.gd" id="1"]
+[ext_resource type="Script" path="res://gd/platform.gd" id="2"]
+[ext_resource type="Script" path="res://gd/hazard.gd" id="3"]
+[ext_resource type="Script" path="res://gd/item.gd" id="4"]
+[ext_resource type="Script" path="res://gd/sign.gd" id="5"]
+[node name="Level00" type="Node2D"]
+script = ExtResource("1")
+level_id = 0
+level_name = "Primeira colherada"
+spawn = Vector2(52, 484)
+[node name="Platform00" type="StaticBody2D" parent="."]
+position = Vector2(0, 484)
+script = ExtResource("2")
+size = Vector2(220, 56)
+flavor = 0
+crumble = false
+[node name="Platform01" type="StaticBody2D" parent="."]
+position = Vector2(295, 484)
+script = ExtResource("2")
+size = Vector2(665, 56)
+flavor = 0
+crumble = false
+[node name="Platform02" type="StaticBody2D" parent="."]
+position = Vector2(370, 406)
+script = ExtResource("2")
+size = Vector2(100, 50)
+flavor = 0
+crumble = false
+[node name="Platform03" type="StaticBody2D" parent="."]
+position = Vector2(540, 430)
+script = ExtResource("2")
+size = Vector2(100, 24)
+flavor = 0
+crumble = false
+[node name="Hazard00" type="Area2D" parent="."]
+position = Vector2(720, 464)
+script = ExtResource("3")
+kind = 0
+size = Vector2(40, 20)
+travel = 0
+speed = 0
+variant = 0
+[node name="Key" type="Area2D" parent="."]
+position = Vector2(590, 393)
+script = ExtResource("4")
+is_exit = false
+[node name="Exit" type="Area2D" parent="."]
+position = Vector2(914, 484)
+script = ExtResource("4")
+is_exit = true
+[node name="Hint0" type="Node2D" parent="."]
+position = Vector2(24, 142)
+script = ExtResource("5")
+title = "A / D  MOVER    W  PULAR"
+body = "Controle: analógico / direcional + A"
+[node name="Hint1" type="Node2D" parent="."]
+position = Vector2(305, 215)
+script = ExtResource("5")
+title = "S  ABAIXAR"
+body = "Controle: baixo no direcional / analógico."
+[node name="Hint2" type="Node2D" parent="."]
+position = Vector2(520, 143)
+script = ExtResource("5")
+title = "SHIFT  CORRER    ESPAÇO  DASH"
+body = "Controle: segure X / aperte B."
+[node name="Hint3" type="Node2D" parent="."]
+position = Vector2(657, 289)
+script = ExtResource("5")
+title = "PEGUE A CHAVE → ALCANCE A PORTA"
+body = ""

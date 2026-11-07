@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://dbsh87pxgt2fq"]
+
+[ext_resource type="Script" uid="uid://c6vf18nx3o3da" path="res://gd/game.gd" id="1"]
+
+[node name="IceGrim" type="Node"]
+script = ExtResource("1")
+iniciar_na_fase_1 = true

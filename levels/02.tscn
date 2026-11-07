@@ -1,0 +1,83 @@
+[gd_scene load_steps=5 format=3 uid="uid://cbydgbisurcj0"]
+
+[ext_resource type="Script" uid="uid://ck6xt46b3rkqi" path="res://gd/world.gd" id="1"]
+[ext_resource type="Script" uid="uid://cerbwtbofwxub" path="res://gd/platform.gd" id="2"]
+[ext_resource type="Script" uid="uid://bym1x1iynbk7s" path="res://gd/hazard.gd" id="3"]
+[ext_resource type="Script" uid="uid://cpdtw3ofe4atd" path="res://gd/item.gd" id="4"]
+
+[node name="Level02" type="Node2D"]
+z_index = -1
+script = ExtResource("1")
+level_id = 2
+level_name = "Patrulha"
+spawn = Vector2(52, 484)
+
+[node name="Platform00" type="StaticBody2D" parent="."]
+texture_filter = 1
+position = Vector2(0, 484)
+script = ExtResource("2")
+size = Vector2(220, 56)
+flavor = 2
+
+[node name="Platform01" type="StaticBody2D" parent="."]
+texture_filter = 1
+position = Vector2(310, 484)
+script = ExtResource("2")
+size = Vector2(210, 56)
+flavor = 2
+
+[node name="Platform02" type="StaticBody2D" parent="."]
+texture_filter = 1
+position = Vector2(620, 484)
+script = ExtResource("2")
+size = Vector2(340, 56)
+flavor = 2
+
+[node name="Platform03" type="StaticBody2D" parent="."]
+texture_filter = 1
+position = Vector2(400, 420)
+script = ExtResource("2")
+size = Vector2(115, 24)
+flavor = 2
+crumble = true
+camouflage = true
+collapse_delay = 0.72
+
+[node name="Hazard00" type="Area2D" parent="."]
+texture_filter = 1
+position = Vector2(335, 484)
+script = ExtResource("3")
+kind = 1
+size = Vector2(30, 24)
+travel = 130.0
+speed = 90.0
+variant = 2
+
+[node name="Hazard01" type="Area2D" parent="."]
+texture_filter = 1
+position = Vector2(745, 464)
+script = ExtResource("3")
+size = Vector2(60, 20)
+travel = 0.0
+speed = 0.0
+variant = 2
+
+[node name="Key" type="Area2D" parent="."]
+texture_filter = 1
+position = Vector2(460, 384)
+script = ExtResource("4")
+
+[node name="Exit" type="Area2D" parent="."]
+texture_filter = 1
+position = Vector2(914, 484)
+script = ExtResource("4")
+is_exit = true
+
+[node name="LandingScoop" type="Area2D" parent="."]
+texture_filter = 1
+position = Vector2(345, 125)
+script = ExtResource("3")
+kind = 2
+trigger_distance = 60.0
+release_delay = 0.25
+concealed_until_triggered = true

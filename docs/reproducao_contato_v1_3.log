@@ -1,0 +1,60 @@
+Godot Engine v4.4.1.stable.official.49a5bc7b6 - https://godotengine.org
+
+[Ice Grim v1.3] Cena principal carregada: /workspace/scratch/802f2e117f4c/v13/jogo/scenes/JogarDireto.tscn
+[Ice Grim] Abrindo res://levels/01.tscn
+[Ice Grim] Abrindo res://levels/06.tscn
+KEY_CASE start=630 held=3 dash_delay=0 result=DEAD pos=(4550.915, 402.0)
+[Ice Grim] Abrindo res://levels/06.tscn
+KEY_CASE start=630 held=3 dash_delay=3 result=hit pos=(4541.999, 379.4657)
+[Ice Grim] Abrindo res://levels/06.tscn
+KEY_CASE start=630 held=3 dash_delay=6 result=hit pos=(4538.333, 362.8407)
+[Ice Grim] Abrindo res://levels/06.tscn
+KEY_CASE start=630 held=3 dash_delay=10 result=hit pos=(4540.208, 350.5004)
+[Ice Grim] Abrindo res://levels/06.tscn
+KEY_CASE start=630 held=3 dash_delay=14 result=hit pos=(4543.207, 344.1671)
+[Ice Grim] Abrindo res://levels/06.tscn
+KEY_CASE start=630 held=3 dash_delay=18 result=DEAD pos=(4502.791, 343.4518)
+[Ice Grim] Abrindo res://levels/06.tscn
+KEY_CASE start=630 held=3 dash_delay=22 result=DEAD pos=(4502.791, 343.4518)
+[Ice Grim] Abrindo res://levels/06.tscn
+KEY_CASE start=630 held=60 dash_delay=0 result=DEAD pos=(4551.207, 401.9253)
+[Ice Grim] Abrindo res://levels/06.tscn
+KEY_CASE start=630 held=60 dash_delay=3 result=hit pos=(4541.999, 379.4657)
+[Ice Grim] Abrindo res://levels/06.tscn
+KEY_CASE start=630 held=60 dash_delay=6 result=hit pos=(4538.333, 360.1324)
+[Ice Grim] Abrindo res://levels/06.tscn
+KEY_CASE start=630 held=60 dash_delay=10 result=hit pos=(4540.208, 339.2157)
+[Ice Grim] Abrindo res://levels/06.tscn
+KEY_CASE start=630 held=60 dash_delay=14 result=hit pos=(4543.207, 323.8546)
+[Ice Grim] Abrindo res://levels/06.tscn
+KEY_CASE start=630 held=60 dash_delay=18 result=DEAD pos=(4502.791, 320.8824)
+[Ice Grim] Abrindo res://levels/06.tscn
+KEY_CASE start=630 held=60 dash_delay=22 result=DEAD pos=(4502.791, 320.8824)
+[Ice Grim] Abrindo res://levels/06.tscn
+KEY_CASE start=650 held=3 dash_delay=0 result=DEAD pos=(4571.207, 401.9253)
+[Ice Grim] Abrindo res://levels/06.tscn
+KEY_CASE start=650 held=3 dash_delay=3 result=hit pos=(4536.0, 379.4657)
+[Ice Grim] Abrindo res://levels/06.tscn
+KEY_CASE start=650 held=3 dash_delay=6 result=hit pos=(4541.0, 362.8407)
+[Ice Grim] Abrindo res://levels/06.tscn
+KEY_CASE start=650 held=3 dash_delay=10 result=DEAD pos=(4502.458, 355.7504)
+[Ice Grim] Abrindo res://levels/06.tscn
+KEY_CASE start=650 held=3 dash_delay=14 result=DEAD pos=(4502.458, 355.7504)
+[Ice Grim] Abrindo res://levels/06.tscn
+KEY_CASE start=650 held=3 dash_delay=18 result=DEAD pos=(4502.458, 355.7504)
+[Ice Grim] Abrindo res://levels/06.tscn
+KEY_CASE start=650 held=3 dash_delay=22 result=DEAD pos=(4502.458, 355.7504)
+[Ice Grim] Abrindo res://levels/06.tscn
+KEY_CASE start=650 held=60 dash_delay=0 result=DEAD pos=(4571.207, 401.9253)
+[Ice Grim] Abrindo res://levels/06.tscn
+KEY_CASE start=650 held=60 dash_delay=3 result=hit pos=(4536.0, 379.4657)
+[Ice Grim] Abrindo res://levels/06.tscn
+KEY_CASE start=650 held=60 dash_delay=6 result=hit pos=(4541.0, 360.1324)
+[Ice Grim] Abrindo res://levels/06.tscn
+KEY_CASE start=650 held=60 dash_delay=10 result=DEAD pos=(4502.458, 348.9796)
+[Ice Grim] Abrindo res://levels/06.tscn
+KEY_CASE start=650 held=60 dash_delay=14 result=DEAD pos=(4502.458, 348.9796)
+[Ice Grim] Abrindo res://levels/06.tscn
+KEY_CASE start=650 held=60 dash_delay=18 result=DEAD pos=(4502.458, 348.9796)
+[Ice Grim] Abrindo res://levels/06.tscn
+KEY_CASE start=650 held=60 dash_delay=22 result=DEAD pos=(4502.458, 348.9796)

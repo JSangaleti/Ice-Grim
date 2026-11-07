@@ -1,0 +1,40 @@
+Godot Engine v4.4.1.stable.official.49a5bc7b6 - https://godotengine.org
+
+PASS MUSIC_LIVES 01 music starts without a built-in loop
+PASS MUSIC_LIVES 02 cached source is not modified
+PASS MUSIC_LIVES 03 scene changes queue only the latest requested track
+PASS MUSIC_LIVES 04 changing scene does not restart or cut the playing track
+PASS MUSIC_LIVES 05 repeated requests do not interrupt playback
+PASS MUSIC_LIVES 06 native stream has a valid duration
+PASS MUSIC_LIVES 07 native audio finished emitted once
+PASS MUSIC_LIVES 08 next song starts only after native finished signal
+PASS MUSIC_LIVES 09 returning to the current song cancels an obsolete queued switch
+PASS MUSIC_LIVES 10 native stream has a valid duration
+PASS MUSIC_LIVES 11 native audio finished emitted once
+PASS MUSIC_LIVES 12 same scene repeats the complete song after its end
+PASS MUSIC_LIVES 13 native stream has a valid duration
+PASS MUSIC_LIVES 14 native audio finished emitted once
+PASS MUSIC_LIVES 15 second queued transition also waits for completion
+PASS MUSIC_LIVES 16 return to menu also leaves the current song playing to its end
+PASS MUSIC_LIVES 17 explicit shutdown stops playback and clears queued requests
+[Ice Grim] Abrindo res://levels/01.tscn
+[Ice Grim] Abrindo res://levels/06.tscn
+PASS MUSIC_LIVES 18 boss bonus is not displayed or usable during approach
+PASS MUSIC_LIVES 19 approach retains the one-hit campaign rule
+[Ice Grim] Abrindo res://levels/01.tscn
+PASS MUSIC_LIVES 20 approach Game Over restarts campaign
+[Ice Grim] Abrindo res://levels/06.tscn
+PASS MUSIC_LIVES 21 entering arena starts three lives
+PASS MUSIC_LIVES 22 HUD displays player lives separately from boss health
+PASS MUSIC_LIVES 23 closed boss contact consumes first life instead of ending campaign
+PASS MUSIC_LIVES 24 boss progress and campaign attempt survive life loss
+PASS MUSIC_LIVES 25 life loss returns player to safe platform with brief protection
+PASS MUSIC_LIVES 26 multiple overlapping attacks cannot drain lives during recovery
+PASS MUSIC_LIVES 27 pause freezes recovery protection and position
+PASS MUSIC_LIVES 28 second hit leaves one life and preserves boss health
+PASS MUSIC_LIVES 29 third hit produces Game Over
+[Ice Grim] Abrindo res://levels/01.tscn
+PASS MUSIC_LIVES 30 exhausted boss lives return to phase one on retry
+[Ice Grim] Abrindo res://levels/06.tscn
+PASS MUSIC_LIVES 31 fresh boss stage restores lives and clears recovery state
+MUSIC_LIVES_TEST_OK: 31 checks; real MP3 completion/queue/cancellation/repetition and three-life arena damage/recovery/Game Over

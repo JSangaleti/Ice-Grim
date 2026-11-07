@@ -1,0 +1,56 @@
+[gd_scene load_steps=5 format=3]
+[ext_resource type="Script" path="res://gd/world.gd" id="1"]
+[ext_resource type="Script" path="res://gd/platform.gd" id="2"]
+[ext_resource type="Script" path="res://gd/hazard.gd" id="3"]
+[ext_resource type="Script" path="res://gd/item.gd" id="4"]
+[node name="Level01" type="Node2D"]
+script = ExtResource("1")
+level_id = 1
+level_name = "Travessia"
+spawn = Vector2(52, 484)
+[node name="Platform00" type="StaticBody2D" parent="."]
+position = Vector2(0, 484)
+script = ExtResource("2")
+size = Vector2(240, 56)
+flavor = 1
+crumble = false
+[node name="Platform01" type="StaticBody2D" parent="."]
+position = Vector2(315, 484)
+script = ExtResource("2")
+size = Vector2(225, 56)
+flavor = 1
+crumble = false
+[node name="Platform02" type="StaticBody2D" parent="."]
+position = Vector2(625, 484)
+script = ExtResource("2")
+size = Vector2(335, 56)
+flavor = 1
+crumble = false
+[node name="Platform03" type="StaticBody2D" parent="."]
+position = Vector2(385, 420)
+script = ExtResource("2")
+size = Vector2(110, 24)
+flavor = 1
+crumble = false
+[node name="Hazard00" type="Area2D" parent="."]
+position = Vector2(705, 464)
+script = ExtResource("3")
+kind = 0
+size = Vector2(60, 20)
+travel = 0
+speed = 0
+variant = 1
+[node name="Key" type="Area2D" parent="."]
+position = Vector2(440, 384)
+script = ExtResource("4")
+is_exit = false
+[node name="Exit" type="Area2D" parent="."]
+position = Vector2(914, 484)
+script = ExtResource("4")
+is_exit = true
+[node name="ExitSurprise" type="Area2D" parent="."]
+position = Vector2(842, 464)
+script = ExtResource("3")
+kind = 5
+size = Vector2(40, 20)
+activation_distance = 70.0

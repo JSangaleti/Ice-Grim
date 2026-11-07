@@ -1,0 +1,290 @@
+[gd_scene load_steps=5 format=3 uid="uid://sy3t15gcabmg"]
+
+[ext_resource type="Script" uid="uid://cicyr5vdngf30" path="res://gd/boss_world.gd" id="1"]
+[ext_resource type="Script" uid="uid://cerbwtbofwxub" path="res://gd/platform.gd" id="2"]
+[ext_resource type="Script" uid="uid://bym1x1iynbk7s" path="res://gd/hazard.gd" id="3"]
+[ext_resource type="Script" uid="uid://cpdtw3ofe4atd" path="res://gd/item.gd" id="4"]
+
+[node name="Level06" type="Node2D"]
+z_index = -1
+script = ExtResource("1")
+width = 4800.0
+level_id = 6
+level_name = "Rei da Nevasca"
+spawn = Vector2(52, 484)
+
+[node name="M0_Platform00" type="StaticBody2D" parent="."]
+texture_filter = 1
+position = Vector2(0, 484)
+script = ExtResource("2")
+size = Vector2(240, 56)
+flavor = 1
+
+[node name="M0_Platform01" type="StaticBody2D" parent="."]
+texture_filter = 1
+position = Vector2(315, 484)
+script = ExtResource("2")
+size = Vector2(225, 56)
+flavor = 1
+
+[node name="M0_Platform02" type="StaticBody2D" parent="."]
+texture_filter = 1
+position = Vector2(625, 484)
+script = ExtResource("2")
+size = Vector2(335, 56)
+flavor = 1
+
+[node name="M0_Platform03" type="StaticBody2D" parent="."]
+texture_filter = 1
+position = Vector2(385, 420)
+script = ExtResource("2")
+size = Vector2(110, 24)
+flavor = 1
+
+[node name="M0_Hazard00" type="Area2D" parent="."]
+texture_filter = 1
+position = Vector2(705, 464)
+script = ExtResource("3")
+size = Vector2(60, 20)
+travel = 0.0
+speed = 0.0
+variant = 1
+
+[node name="M0_ExitSurprise" type="Area2D" parent="."]
+texture_filter = 1
+position = Vector2(842, 464)
+script = ExtResource("3")
+kind = 5
+size = Vector2(40, 20)
+activation_distance = 70.0
+
+[node name="M1_Platform00" type="StaticBody2D" parent="."]
+texture_filter = 1
+position = Vector2(960, 484)
+script = ExtResource("2")
+size = Vector2(180, 56)
+flavor = 3
+
+[node name="M1_Platform01" type="StaticBody2D" parent="."]
+texture_filter = 1
+position = Vector2(1200, 460)
+script = ExtResource("2")
+size = Vector2(85, 22)
+flavor = 3
+crumble = true
+
+[node name="M1_Platform02" type="StaticBody2D" parent="."]
+texture_filter = 1
+position = Vector2(1345, 420)
+script = ExtResource("2")
+size = Vector2(85, 22)
+flavor = 3
+crumble = true
+
+[node name="M1_Platform03" type="StaticBody2D" parent="."]
+texture_filter = 1
+position = Vector2(1495, 380)
+script = ExtResource("2")
+size = Vector2(85, 22)
+flavor = 3
+crumble = true
+
+[node name="M1_Platform04" type="StaticBody2D" parent="."]
+texture_filter = 1
+position = Vector2(1650, 484)
+script = ExtResource("2")
+size = Vector2(65, 56)
+flavor = 3
+crumble = true
+camouflage = true
+collapse_delay = 0.32
+
+[node name="M1_Hazard01" type="Area2D" parent="."]
+texture_filter = 1
+position = Vector2(1815, 464)
+script = ExtResource("3")
+size = Vector2(40, 20)
+travel = 0.0
+speed = 0.0
+
+[node name="M1_StableFinish" type="StaticBody2D" parent="."]
+texture_filter = 1
+position = Vector2(1715, 484)
+script = ExtResource("2")
+size = Vector2(205, 56)
+flavor = 3
+
+[node name="M2_Platform00" type="StaticBody2D" parent="."]
+texture_filter = 1
+position = Vector2(1920, 484)
+script = ExtResource("2")
+size = Vector2(230, 56)
+
+[node name="M2_Platform01" type="StaticBody2D" parent="."]
+texture_filter = 1
+position = Vector2(2210, 484)
+script = ExtResource("2")
+size = Vector2(280, 56)
+
+[node name="M2_Platform02" type="StaticBody2D" parent="."]
+texture_filter = 1
+position = Vector2(2550, 484)
+script = ExtResource("2")
+size = Vector2(330, 56)
+
+[node name="M2_Platform03" type="StaticBody2D" parent="."]
+texture_filter = 1
+position = Vector2(2310, 406)
+script = ExtResource("2")
+size = Vector2(70, 52)
+
+[node name="M2_Platform04" type="StaticBody2D" parent="."]
+texture_filter = 1
+position = Vector2(2628, 420)
+script = ExtResource("2")
+size = Vector2(84, 22)
+
+[node name="M2_Hazard00" type="Area2D" parent="."]
+texture_filter = 1
+position = Vector2(2260, 145)
+script = ExtResource("3")
+kind = 2
+size = Vector2(38, 38)
+travel = 0.0
+speed = 0.0
+variant = 1
+
+[node name="M2_Hazard01" type="Area2D" parent="."]
+texture_filter = 1
+position = Vector2(2770, 484)
+script = ExtResource("3")
+kind = 1
+size = Vector2(30, 24)
+travel = 25.0
+speed = 110.0
+variant = 1
+
+[node name="M2_Hazard02" type="Area2D" parent="."]
+texture_filter = 1
+position = Vector2(2780, 464)
+script = ExtResource("3")
+kind = 5
+size = Vector2(40, 20)
+travel = 0.0
+speed = 0.0
+variant = 1
+
+[node name="M2_LowerStep" type="StaticBody2D" parent="."]
+texture_filter = 1
+position = Vector2(2570, 452)
+script = ExtResource("2")
+size = Vector2(42, 22)
+
+[node name="M2_LateScoop" type="Area2D" parent="."]
+texture_filter = 1
+position = Vector2(2415, 105)
+script = ExtResource("3")
+kind = 2
+concealed_until_triggered = true
+
+[node name="M3_Platform00" type="StaticBody2D" parent="."]
+texture_filter = 1
+position = Vector2(2880, 484)
+script = ExtResource("2")
+size = Vector2(170, 56)
+flavor = 1
+
+[node name="M3_Platform01" type="StaticBody2D" parent="."]
+texture_filter = 1
+position = Vector2(3115, 458)
+script = ExtResource("2")
+size = Vector2(85, 22)
+flavor = 1
+crumble = true
+camouflage = true
+collapse_delay = 0.4
+
+[node name="M3_Platform02" type="StaticBody2D" parent="."]
+texture_filter = 1
+position = Vector2(3260, 420)
+script = ExtResource("2")
+size = Vector2(90, 22)
+flavor = 1
+crumble = true
+
+[node name="M3_Platform03" type="StaticBody2D" parent="."]
+texture_filter = 1
+position = Vector2(3420, 484)
+script = ExtResource("2")
+size = Vector2(420, 56)
+flavor = 1
+
+[node name="M3_Platform04" type="StaticBody2D" parent="."]
+texture_filter = 1
+position = Vector2(3550, 406)
+script = ExtResource("2")
+size = Vector2(90, 52)
+flavor = 1
+
+[node name="M3_Hazard00" type="Area2D" parent="."]
+texture_filter = 1
+position = Vector2(3450, 145)
+script = ExtResource("3")
+kind = 2
+size = Vector2(38, 38)
+travel = 0.0
+speed = 0.0
+variant = 2
+
+[node name="M3_Hazard02" type="Area2D" parent="."]
+texture_filter = 1
+position = Vector2(3690, 464)
+script = ExtResource("3")
+size = Vector2(40, 20)
+travel = 0.0
+speed = 0.0
+variant = 2
+
+[node name="M3_Hazard03" type="Area2D" parent="."]
+texture_filter = 1
+position = Vector2(3746, 458)
+script = ExtResource("3")
+kind = 4
+size = Vector2(28, 32)
+travel = 0.0
+speed = 0.0
+variant = 2
+
+[node name="ArenaFloor" type="StaticBody2D" parent="."]
+texture_filter = 1
+position = Vector2(3840, 484)
+script = ExtResource("2")
+size = Vector2(960, 56)
+flavor = 2
+
+[node name="LeftStep" type="StaticBody2D" parent="."]
+texture_filter = 1
+position = Vector2(4000, 430)
+script = ExtResource("2")
+size = Vector2(140, 22)
+flavor = 2
+
+[node name="MiddleStep" type="StaticBody2D" parent="."]
+texture_filter = 1
+position = Vector2(4190, 390)
+script = ExtResource("2")
+size = Vector2(140, 22)
+flavor = 2
+
+[node name="AttackStep" type="StaticBody2D" parent="."]
+texture_filter = 1
+position = Vector2(4360, 402)
+script = ExtResource("2")
+size = Vector2(140, 22)
+flavor = 2
+
+[node name="Exit" type="Area2D" parent="."]
+texture_filter = 1
+position = Vector2(4754, 484)
+script = ExtResource("4")
+is_exit = true

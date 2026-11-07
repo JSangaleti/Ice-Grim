@@ -1,0 +1,84 @@
+[gd_scene load_steps=5 format=3]
+[ext_resource type="Script" path="res://gd/world.gd" id="1"]
+[ext_resource type="Script" path="res://gd/platform.gd" id="2"]
+[ext_resource type="Script" path="res://gd/hazard.gd" id="3"]
+[ext_resource type="Script" path="res://gd/item.gd" id="4"]
+[node name="Level05" type="Node2D"]
+script = ExtResource("1")
+level_id = 5
+level_name = "Última colherada"
+spawn = Vector2(52, 484)
+[node name="Platform00" type="StaticBody2D" parent="."]
+position = Vector2(0, 484)
+script = ExtResource("2")
+size = Vector2(170, 56)
+flavor = 1
+crumble = false
+[node name="Platform01" type="StaticBody2D" parent="."]
+position = Vector2(235, 458)
+script = ExtResource("2")
+size = Vector2(85, 22)
+flavor = 1
+crumble = true
+camouflage = true
+collapse_delay = 0.4
+[node name="Platform02" type="StaticBody2D" parent="."]
+position = Vector2(380, 420)
+script = ExtResource("2")
+size = Vector2(90, 22)
+flavor = 1
+crumble = true
+[node name="Platform03" type="StaticBody2D" parent="."]
+position = Vector2(540, 484)
+script = ExtResource("2")
+size = Vector2(420, 56)
+flavor = 1
+crumble = false
+[node name="Platform04" type="StaticBody2D" parent="."]
+position = Vector2(670, 406)
+script = ExtResource("2")
+size = Vector2(90, 52)
+flavor = 1
+crumble = false
+[node name="Hazard00" type="Area2D" parent="."]
+position = Vector2(570, 145)
+script = ExtResource("3")
+kind = 2
+size = Vector2(38, 38)
+travel = 0
+speed = 0
+variant = 2
+[node name="Hazard01" type="Area2D" parent="."]
+position = Vector2(558, 484)
+script = ExtResource("3")
+kind = 1
+size = Vector2(30, 24)
+travel = 65
+speed = 110
+variant = 2
+[node name="Hazard02" type="Area2D" parent="."]
+position = Vector2(810, 464)
+script = ExtResource("3")
+kind = 0
+size = Vector2(40, 20)
+travel = 0
+speed = 0
+variant = 2
+[node name="Hazard03" type="Area2D" parent="."]
+position = Vector2(866, 458)
+script = ExtResource("3")
+kind = 4
+size = Vector2(28, 32)
+travel = 0
+speed = 0
+variant = 2
+[node name="Key" type="Area2D" parent="."]
+position = Vector2(427, 384)
+script = ExtResource("4")
+is_exit = false
+escape_once = true
+escape_to = Vector2(645, 448)
+[node name="Exit" type="Area2D" parent="."]
+position = Vector2(914, 484)
+script = ExtResource("4")
+is_exit = true

@@ -1,0 +1,97 @@
+[gd_scene load_steps=5 format=3 uid="uid://dsp03sskxspc5"]
+
+[ext_resource type="Script" uid="uid://ck6xt46b3rkqi" path="res://gd/world.gd" id="1"]
+[ext_resource type="Script" uid="uid://cerbwtbofwxub" path="res://gd/platform.gd" id="2"]
+[ext_resource type="Script" uid="uid://bym1x1iynbk7s" path="res://gd/hazard.gd" id="3"]
+[ext_resource type="Script" uid="uid://cpdtw3ofe4atd" path="res://gd/item.gd" id="4"]
+
+[node name="Level04" type="Node2D"]
+z_index = -1
+script = ExtResource("1")
+level_id = 4
+level_name = "Chuva de sorvete"
+spawn = Vector2(52, 484)
+
+[node name="Platform00" type="StaticBody2D" parent="."]
+texture_filter = 1
+position = Vector2(0, 484)
+script = ExtResource("2")
+size = Vector2(230, 56)
+
+[node name="Platform01" type="StaticBody2D" parent="."]
+texture_filter = 1
+position = Vector2(290, 484)
+script = ExtResource("2")
+size = Vector2(280, 56)
+
+[node name="Platform02" type="StaticBody2D" parent="."]
+texture_filter = 1
+position = Vector2(630, 484)
+script = ExtResource("2")
+size = Vector2(330, 56)
+
+[node name="Platform03" type="StaticBody2D" parent="."]
+texture_filter = 1
+position = Vector2(390, 406)
+script = ExtResource("2")
+size = Vector2(70, 52)
+
+[node name="Platform04" type="StaticBody2D" parent="."]
+texture_filter = 1
+position = Vector2(708, 420)
+script = ExtResource("2")
+size = Vector2(84, 22)
+
+[node name="Hazard00" type="Area2D" parent="."]
+texture_filter = 1
+position = Vector2(340, 145)
+script = ExtResource("3")
+kind = 2
+size = Vector2(38, 38)
+travel = 0.0
+speed = 0.0
+variant = 1
+
+[node name="Hazard01" type="Area2D" parent="."]
+texture_filter = 1
+position = Vector2(850, 484)
+script = ExtResource("3")
+kind = 1
+size = Vector2(30, 24)
+travel = 25.0
+speed = 110.0
+variant = 1
+
+[node name="Hazard02" type="Area2D" parent="."]
+texture_filter = 1
+position = Vector2(860, 464)
+script = ExtResource("3")
+kind = 5
+size = Vector2(40, 20)
+travel = 0.0
+speed = 0.0
+variant = 1
+
+[node name="Key" type="Area2D" parent="."]
+texture_filter = 1
+position = Vector2(750, 384)
+script = ExtResource("4")
+
+[node name="Exit" type="Area2D" parent="."]
+texture_filter = 1
+position = Vector2(914, 484)
+script = ExtResource("4")
+is_exit = true
+
+[node name="LowerStep" type="StaticBody2D" parent="."]
+texture_filter = 1
+position = Vector2(650, 452)
+script = ExtResource("2")
+size = Vector2(42, 22)
+
+[node name="LateScoop" type="Area2D" parent="."]
+texture_filter = 1
+position = Vector2(495, 105)
+script = ExtResource("3")
+kind = 2
+concealed_until_triggered = true

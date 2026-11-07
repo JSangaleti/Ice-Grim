@@ -1,0 +1,42 @@
+Godot Engine v4.4.1.stable.official.49a5bc7b6 - https://godotengine.org
+
+[Ice Grim] Abrindo res://levels/01.tscn
+[Ice Grim] Abrindo res://levels/06.tscn
+LAND 6 (340.3661, 483.999) key=false
+LAND 6 (440.1707, 419.9253) key=false
+LAND 6 (656.1455, 483.999) key=false
+LAND 6 (800.3629, 483.999) key=false
+LAND 6 (914.3802, 483.9529) key=false
+LAND 6 (1235.351, 459.9732) key=false
+LAND 6 (1385.375, 419.9871) key=false
+LAND 6 (1540.372, 379.9874) key=false
+LAND 6 (1673.347, 483.9636) key=false
+LAND 6 (1795.382, 483.9998) key=false
+LAND 6 (1874.382, 483.9529) key=false
+LAND 6 (2235.38, 483.999) key=false
+LAND 6 (2560.381, 451.9816) key=false
+LAND 6 (2595.374, 451.9525) key=false
+LAND 6 (2670.38, 419.9821) key=false
+LAND 6 (2735.375, 483.9534) key=false
+LAND 6 (2834.364, 483.9996) key=false
+LAND 6 (3155.263, 457.9252) key=false
+LAND 6 (3305.453, 419.9921) key=false
+LAND 6 (3530.317, 483.9873) key=false
+LAND 6 (3741.347, 483.999) key=false
+LAND 6 (4079.068, 429.9253) key=false
+LAND 6 (4245.349, 389.9861) key=false
+LAND 6 (4440.373, 401.9852) key=false
+BOSS_HIT hp=8 at 5.32 pos=(4534.31, 360.1324)
+BOSS_HIT hp=7 at 10.93 pos=(4534.308, 360.1324)
+BOSS_HIT hp=6 at 16.55 pos=(4534.308, 360.1324)
+BOSS_HIT hp=5 at 23.18 pos=(4533.874, 360.1325)
+BOSS_HIT hp=4 at 29.82 pos=(4533.874, 360.1325)
+BOSS_HIT hp=3 at 36.45 pos=(4533.874, 360.1325)
+BOSS_HIT hp=2 at 43.27 pos=(4534.31, 360.1324)
+BOSS_HIT hp=1 at 50.08 pos=(4534.31, 360.1324)
+BOSS_PHYSICAL_CLEAR 56.90s
+[Ice Grim] Abrindo res://levels/06.tscn
+[Ice Grim] Abrindo res://levels/01.tscn
+[Ice Grim] Abrindo res://levels/06.tscn
+[Ice Grim] Abrindo res://levels/06.tscn
+BOSS_TEST_OK: long route, nine physical dash hits, three phases, reward, reset, active pause, damage gates, death rule, corrected art/music credits and soundtrack
